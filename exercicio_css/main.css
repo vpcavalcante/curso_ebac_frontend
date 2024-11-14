@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.create-date {
+  color: darkgray;
+}
+
+body>header {
+  background-color: cadetblue;
+  padding: 16px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 16px 0;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+
+section .articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+section .articles article {
+  width: 30%;
+  padding: 8px;
+}
+
+section .articles article a {
+  background-color: forestgreen;
+  color: #fff;
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+section .articles article a:hover {
+  text-decoration: underline;
+}
+
+section .articles article h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+section .articles article img {
+  /* height: 180px;*/
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 350px;
+  min-width: 350px;
+}
+
+section .articles article p,
+section .articles article a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section .articles article h3 {
+  font-size: 24px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+/*Seção Esportes*/
+#sports {
+  background-color: rgba(222, 184, 135, 0.1);
+}
+
+#sports h2 {
+  color: burlywood;
+}
+
+#sports .articles article a {
+  background-color: burlywood;
+}
+
+/*Seção Economia*/
+#economy {
+  background-color: rgba(3, 81, 217, 0.131);
+}
+
+#economy h2 {
+  color: rgb(3, 82, 217);
+}
+
+#economy .articles article a {
+  background-color: rgb(3, 82, 217);
+}
+
+/*Seção Entretenimento*/
+
+#entertainment {
+  background-color: rgba(137, 43, 226, 0.131);
+}
+
+#entertainment .articles article a {
+  background-color: rgb(137, 43, 226);
+}
+
+#entertainment h2 {
+  color: blueviolet;
+}
+
+/*Seção Tecnologia*/
+#tech {
+  background-color: rgba(255, 127, 80, 0.132);
+}
+
+#tech .articles article a {
+  background-color: coral;
+}
+
+#tech h2 {
+  color: coral;
+}
